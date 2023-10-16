@@ -1,0 +1,134 @@
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 152, 46);
+}
+
+.container
+{
+    background-color: rgba(13, 169, 216, 0.556);
+    height: 550px;
+    margin: 0px 50px;
+}
+
+
+header
+{
+    background-color: rgba(169, 168, 168, 0.856);
+    height: 100px;
+    display: flex;
+}
+
+header h1
+{
+    width: 85%;
+    margin: 0px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.imagem
+{
+    background-image: url("download.png");
+    width: 20%;
+    background-size: cover;
+    margin-right: 5px;
+    background-position: center;
+    border-radius: 30px;
+    margin-left: 160;
+}
+
+main .links
+{
+    background-color: rgb(108, 196, 20);
+    padding-left: 120px;
+}
+
+main
+{
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul
+{
+    display: flex;
+}
+
+.links ul li
+{
+    list-style-type: none;
+}
+
+li a
+{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 25px;    
+    background-color: white;
+    color: rgb(6, 151, 115);
+}
+
+a:hover
+{
+    background-color: rgb(59, 90, 212);
+    text-decoration: underline;
+}
+
+
+main .preço
+{
+    display: flex;
+    margin-top: 60px;
+    height: 180px;
+    padding-left: 20px;
+}
+
+.remedios
+{
+    border: 1px solid rgba(0, 0, 0, 0.727);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;
+}
+
+.remedios:hover
+{
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.dipirona
+{
+    background-image: url("dipirona-monoidratada-1g-com-10-comprimidos-generico-prati-donaduzzi-ed2.jpg");
+    width: 140px;
+}
+
+.rinosoro
+{
+    background-image: url("3210032017082926.jpg");
+    width: 70px;
+}
+
+.inalador
+{
+    background-image: url("46368_inalador-inalar-compact-sem-bolsa_l1_637682755251258662.jpg");
+    width: 190px;
+}
+
+.hipoglos
+{
+    background-image: url("8468_hipoglos-pomada-para-prevencao-de-assaduras-40gr-122822_l1_637605626895736797.jpg");
+    width: 170px;
+}
+
+
+
+
